@@ -1,24 +1,32 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Frontend Assignment
 
-First, run the development server:
+## Install
 
-```bash
+npm install
+
+## Run frontend
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run mock server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+cd mock-server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm install
+
+npm run mock
+
+Runs on:
+
+Frontend
+
+http://localhost:3000
+
+Backend
+
+http://localhost:4000
 
 ## Learn More
 
